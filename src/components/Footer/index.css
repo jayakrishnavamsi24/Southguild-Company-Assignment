@@ -1,0 +1,28 @@
+.footer {
+	background-color: yellow;
+	margin-left: -8px;
+	width: 90%;
+	padding: 20px 40px;
+	color: #a50740;
+	font-family: 'Roboto';
+}
+
+.footer > h1 {
+	font-size: 20px;
+}
+
+.social-media-icons-container {
+    display: flex;
+    align-items: center;
+    width: 50%;
+}
+
+.copy-right-container {
+	margin-left: -8px;
+	width: 100%;
+	background-color: rgb(180, 180, 9);
+	color: #a50740;
+	font-family: 'Roboto';
+	padding: 15px;
+	text-align: center;
+}

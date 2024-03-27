@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+
+.location-content-container {
+	display: flex;
+	flex-direction: column;
+	font-family: 'Roboto';
+}
+
+.location-content-container > div {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 0px;
+}
+
+.main-side-heading {
+	color: #a50740;
+	font-size: 20px;
+	margin-bottom: 5px;
+	font-family: 'Roboto';
+}
+
+.location-content-container > p {
+	font-size: 16px;
+	margin-top: 0px;
+	font-weight: 600;
+	color: #424141;
+}
+
+.edit-details-btn {
+	height: 30px;
+	width: 110px;
+	border: 1px solid #000000;
+	border-radius: 20px;
+	font-weight: bold;
+	font-size: 12px;
+	background-color: transparent;
+	margin-bottom: 0px;
+	cursor: pointer;
+	outline: none;
+}
+
+#map {
+	height: 130px;
+	background-color: red;
+}
+
+.open-timings-container {
+	font-family: 'Roboto';
+	font-size: 15px;
+}
+
+.pooja-timings-container {
+	font-family: 'Roboto';
+	font-size: 15px;
+}
+
+/* Style for accordion button */
+.accordion-button {
+	background-color: #f44336;
+	color: white;
+	cursor: pointer;
+	padding: 18px;
+	width: 100%;
+	text-align: left;
+	border: none;
+	outline: none;
+}
+
+/* Style for accordion content */
+.accordion-content {
+	display: none;
+	padding: 0 18px;
+	overflow: hidden;
+	background-color: #f9f9f9;
+}
+
+/* Style for active (open) accordion content */
+.active {
+	display: block;
+}
+
+.accordian {
+	display: flex;
+	align-items: center;
+	padding-left: 5px;
+	padding-right: 15px;
+	margin-bottom: 10px;
+}
+
+.accordian-heading {
+	color: #a50740;
+	font-size: 20px;
+	font-family: 'Roboto';
+	margin-left: 10px;
+	flex-grow: 1;
+}
+
+.side-main-container {
+	display: flex;
+	align-items: center;
+}
+
+.side-main-container > h1 {
+	color: #a50740;
+	font-size: 20px;
+	font-family: 'Roboto';
+	flex-grow: 1;
+}
+
+.list-container {
+	list-style-type: none;
+	padding-left: 0px;
+	font-family: 'Roboto';
+	margin-top: 0px;
+}
+
+.list-item {
+	display: flex;
+	align-items: flex-end;
+	margin-bottom: 15px;
+}
+
+.green-tick {
+	margin-right: 7px;
+	font-size: 30px;
+}
+
+.nearest-source-container {
+	display: flex;
+	align-items: center;
+}
+
+.nearest-source-text {
+	font-family: 'Roboto';
+	flex-grow: 1;
+}
+
+.nearest-source-place {
+	font-family: 'Roboto';
+}
+
+.contact-details {
+	font-family: "Roboto";
+}
